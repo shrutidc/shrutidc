@@ -1,4 +1,4 @@
-name: Generate pacman animation
+name: Generate profile assets
 
 on:
   schedule:
@@ -15,11 +15,20 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+
       - name: Generate pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman'
+
+      - name: Generate top languages card
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_PATH: dist/top-languages.svg
+        run: python3 .github/scripts/top_languages.py
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

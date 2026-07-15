@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shrutidc&theme=tokyonight" alt="Top Languages by Repo" height="200" />
+<img src="https://raw.githubusercontent.com/shrutidc/shrutidc/output/top-languages.svg" alt="Top Languages by Repo" height="200" />
 <img src="https://streak-stats.demolab.com?user=shrutidc&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="200" />
 
 </div>
