@@ -10,11 +10,17 @@
 
 ## <img src="https://api.iconify.design/mdi/account-circle.svg?color=%236e9ef7" width="24" align="center" /> About Me
 
-Hi, I'm **Shruti Chougule**, a Computer Science student at **Texas Tech University** with a curious, creative mind.
+Hello there, and thanks for stopping by my profile! 👋
+
+I'm Shruti, a Computer Science undergraduate at Texas Tech University (Honors College) driven by curiosity, creativity, and connection. I see every new challenge as a chance to learn and grow, and I find joy in working alongside others to build meaningful solutions. For me, leadership isn't about titles — it's about listening, encouraging collaboration, and creating spaces where people feel supported and inspired.
+
+Along the way, I've discovered how important qualities like adaptability, communication, and empathy are in both academic and personal settings. Whether I'm helping others with their goals, tackling a project, or exploring new ideas, I value patience, persistence, and teamwork. These experiences have shaped me into someone who enjoys problem-solving but also values the people and relationships behind every success.
+
+Outside of academics, I stay grounded and inspired through the things I love: traveling, writing, cooking, and playing or watching sports. I'm also drawn to dancing and music, both of which remind me to stay curious, creative, and present. These passions help me bring energy, balance, and perspective into my everyday life.
+
+At heart, I'm someone who is always learning, always looking for growth, and always looking to connect with people who share a drive for positive impact. 🌟
 
 <img src="https://api.iconify.design/mdi/magnify.svg?color=%236e9ef7" width="16" align="center" />&nbsp; Seeking **summer 2027 internship roles** in **Data Science, AI/ML, Quant, or SWE**
-
-<img src="https://api.iconify.design/mdi/school.svg?color=%236e9ef7" width="16" align="center" />&nbsp; **B.S. Computer Science with Honors**, Minor in Mathematics — GPA 3.9, Honors College, TrUE Scholar *(May 2028)*
 
 <img src="https://api.iconify.design/mdi/robot-outline.svg?color=%236e9ef7" width="16" align="center" />&nbsp; **Break Through Tech AI Studio Fellow** *(Cornell Tech)* — selected from 4,000+ applicants nationwide
 
@@ -22,11 +28,7 @@ Hi, I'm **Shruti Chougule**, a Computer Science student at **Texas Tech Universi
 
 <img src="https://api.iconify.design/mdi/account-group.svg?color=%236e9ef7" width="16" align="center" />&nbsp; **President, ACM @ Texas Tech** — leading TTU's largest computing organization
 
-<img src="https://api.iconify.design/mdi/chart-line.svg?color=%236e9ef7" width="16" align="center" />&nbsp; Currently exploring **quantitative finance** — valuation, event studies, backtesting, and volatility forecasting
-
 <img src="https://api.iconify.design/mdi/handshake.svg?color=%236e9ef7" width="16" align="center" />&nbsp; Open to **collaborations and open-source contributions** — if you're building something interesting, let's talk!
-
-<img src="https://api.iconify.design/mdi/lightbulb-on-outline.svg?color=%236e9ef7" width="16" align="center" />&nbsp; Fun fact: I believe the best projects start with a "what if...?"
 
 ## <img src="https://api.iconify.design/mdi/email-fast-outline.svg?color=%236e9ef7" width="24" align="center" /> Let's Connect
 
@@ -120,50 +122,6 @@ Hi, I'm **Shruti Chougule**, a Computer Science student at **Texas Tech Universi
   <img src="https://img.shields.io/badge/Technology%20Risk-1a1b27?style=flat-square" alt="Technology Risk" />
 </p>
 
-## <img src="https://api.iconify.design/mdi/rocket-launch-outline.svg?color=%236e9ef7" width="24" align="center" /> Projects
-
-### <img src="https://api.iconify.design/mdi/brain.svg?color=%236e9ef7" width="20" align="center" /> [VEP-Pipeline](https://github.com/shrutidc/VEP-Pipeline) — Virtual Epileptic Patient Pipeline
-
-<img src="https://img.shields.io/badge/URC%202026%20Top%2010%20Commercialization%20Finalist-FFD700?style=flat-square&logoColor=black" alt="Award" />
-
-Production-grade implementation of the Virtual Epileptic Patient framework, simulating seizure propagation in individual patient brains via the **Epileptor neural mass model** (a 6D dynamical system) so neurosurgeons can virtually test interventions before irreversible resections. Supports 7 human brain atlases, real Diffusion-MRI structural connectivity, and 262 electrodes across 3 patients — with Numba JIT delivering a ~1000× speedup, plus an interactive 3D clinical report. Pitched as **CortexCompass** to a $11M+ addressable market of 150+ US epilepsy centers.
-
-`Python` · `Numba` · `SciPy` · `NumPy` · `Docker` · `Plotly` · `The Virtual Brain`
-
-### <img src="https://api.iconify.design/mdi/headset.svg?color=%236e9ef7" width="20" align="center" /> [SupportFlow](https://github.com/shrutidc/SupportFlow) — AI-Native Customer Operations Platform
-
-AI-native support platform combining traditional ticket workflows with AI assistance — augmenting human agents rather than replacing them. **v1 shipped** with a state-machine ticket lifecycle, escalation logic, and a full responsive dashboard. **v2 in active development**: AI triage and summarization, semantic search over ticket history via vector embeddings, Claude-powered response suggestions, auto-generated knowledge bases, and an AI evaluation framework.
-
-`Next.js` · `TypeScript` · `FastAPI` · `MongoDB Atlas Vector Search` · `Redis` · `BullMQ` · `Claude API` · `Tailwind CSS`
-
-### <img src="https://api.iconify.design/mdi/map-marker-radius-outline.svg?color=%236e9ef7" width="20" align="center" /> [Smart Pad Layout Optimizer](https://github.com/shrutidc/PTEN_Main_OS)
-
-<img src="https://img.shields.io/badge/HackWesTX%202025%20%E2%80%94%20Patterson--UTI%20Challenge%20Winner-FFD700?style=flat-square&logoColor=black" alt="Award" />
-
-Web app that turns real drone imagery into intelligent hydraulic fracturing pad layouts. Georeferences high-resolution TIFF scans between pixel and GPS coordinates, offers a drag-and-drop equipment library with collision detection and color-coded safety zones, suggests optimal layouts via the Gemini API, and exports KML/KMZ, CSV, and PDF reports for field engineer handoff. Tested against actual Patterson-UTI drone scan data.
-
-`HTML5` · `JavaScript` · `Canvas API` · `Gemini API` · `jsPDF` · `Python`
-
-### <img src="https://api.iconify.design/mdi/chart-box-outline.svg?color=%236e9ef7" width="20" align="center" /> [Global-Budget-Allocation](https://github.com/shrutidc/Global-Budget-Allocation) — Government Budget Data Science
-
-Fully reproducible, end-to-end analysis of 45 countries' government budgets from 1936–2026 across 9 spending categories (3,654 country-year rows, zero missing values). Ships a reusable `globalbudget` package covering loading, validation, feature engineering, visualization, and forecasting; 6 executed notebooks spanning EDA, clustering/PCA, ARIMA/ETS forecasting with backtests, supervised ML, and guns-vs-butter policy analysis — all backed by a 26-test pytest suite and GitHub Actions CI.
-
-`Python` · `Pandas` · `scikit-learn` · `Statsmodels` · `ARIMA/ETS` · `Plotly` · `pytest` · `GitHub Actions`
-
-### <img src="https://api.iconify.design/mdi/finance.svg?color=%236e9ef7" width="20" align="center" /> [Financial-Markets-Analysis](https://github.com/shrutidc/Financial-Markets-Analysis-) — JPMorgan Chase Equity Research
-
-End-to-end equity research on JPM across 5 years of daily OHLCV, full 3-statement financials, and 42 years of dividends — culminating in a sell-side-style research note where **every figure is reproduced by code**. Covers a bank ratio model (ROTCE, NIM, DuPont), valuation (two-stage DDM, Gordon Growth, Residual Income), a MacKinlay event study over 18 earnings dates plus the SVB collapse, walk-forward backtesting with transaction costs and no look-ahead, VaR/CVaR risk, and GARCH volatility forecasting. Findings are reported honestly — including that ML **cannot** beat a naïve baseline on direction.
-
-`Python` · `Pandas` · `NumPy` · `Statsmodels` · `GARCH` · `scikit-learn` · `Matplotlib`
-
-### <img src="https://api.iconify.design/mdi/music-note-outline.svg?color=%236e9ef7" width="20" align="center" /> [Serenata](https://github.com/shrutidc/Serenata) — Mood-Based Music Recommender
-
-<img src="https://img.shields.io/badge/HackWesTX%202024%20%E2%80%94%20Best%20First--Time%20Hackers-FFD700?style=flat-square&logoColor=black" alt="Award" />
-
-Detects your emotional state from a facial image with DeepFace, then blends that mood with your real Spotify listening history through the Gemini API to generate personalized song recommendations — orchestrating three APIs with retry logic and error handling behind a clean web front end.
-
-`Python` · `DeepFace` · `TensorFlow` · `Gemini API` · `Spotify API` · `HTML/CSS/JS`
-
 ## <img src="https://api.iconify.design/mdi/certificate-outline.svg?color=%236e9ef7" width="24" align="center" /> Certifications
 
 <p>
@@ -179,12 +137,8 @@ Detects your emotional state from a facial image with DeepFace, then blends that
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shrutidc&theme=tokyonight" alt="GitHub Stats" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shrutidc&theme=tokyonight" alt="Top Languages" />
-
-<img src="https://streak-stats.demolab.com?user=shrutidc&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shrutidc&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shrutidc&theme=tokyonight" alt="Top Languages by Repo" height="200" />
+<img src="https://streak-stats.demolab.com?user=shrutidc&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="200" />
 
 </div>
 
@@ -204,6 +158,6 @@ Detects your emotional state from a facial image with DeepFace, then blends that
 
 <div align="center">
 
-**Thanks for stopping by! Feel free to explore my repos and reach out.**
+**Thanks for stopping by! Feel free to explore my repos below.**
 
 </div>
