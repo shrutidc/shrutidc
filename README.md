@@ -10,7 +10,7 @@
 
 ## <img src="https://api.iconify.design/mdi/account-circle.svg?color=%236e9ef7" width="24" align="center" /> About Me
 
-Hello there, and thanks for stopping by my profile! 👋
+Hello there! 👋
 
 I'm Shruti, a Computer Science undergraduate at Texas Tech University (Honors College) driven by curiosity, creativity, and connection. I see every new challenge as a chance to learn and grow, and I find joy in working alongside others to build meaningful solutions. For me, leadership isn't about titles — it's about listening, encouraging collaboration, and creating spaces where people feel supported and inspired.
 
