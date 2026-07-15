@@ -8,6 +8,15 @@
 
 ---
 
+## <img src="https://api.iconify.design/mdi/chart-bar.svg?color=%236e9ef7" width="24" align="center" /> GitHub Stats
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shrutidc&theme=tokyonight" alt="Top Languages by Repo" height="200" />
+<img src="https://streak-stats.demolab.com?user=shrutidc&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="200" />
+
+</div>
+
 ## <img src="https://api.iconify.design/mdi/account-circle.svg?color=%236e9ef7" width="24" align="center" /> About Me
 
 Hello there! 👋
@@ -20,16 +29,6 @@ Outside of academics, I stay grounded and inspired through the things I love: tr
 
 At heart, I'm someone who is always learning, always looking for growth, and always looking to connect with people who share a drive for positive impact. 🌟
 
-<img src="https://api.iconify.design/mdi/magnify.svg?color=%236e9ef7" width="16" align="center" />&nbsp; Seeking **summer 2027 internship roles** in **Data Science, AI/ML, Quant, or SWE**
-
-<img src="https://api.iconify.design/mdi/robot-outline.svg?color=%236e9ef7" width="16" align="center" />&nbsp; **Break Through Tech AI Studio Fellow** *(Cornell Tech)* — selected from 4,000+ applicants nationwide
-
-<img src="https://api.iconify.design/mdi/brain.svg?color=%236e9ef7" width="16" align="center" />&nbsp; **Undergraduate Research Assistant** *(TTU ECE)* — modeling seizure dynamics from 128-channel iEEG with fractional-order brain networks
-
-<img src="https://api.iconify.design/mdi/account-group.svg?color=%236e9ef7" width="16" align="center" />&nbsp; **President, ACM @ Texas Tech** — leading TTU's largest computing organization
-
-<img src="https://api.iconify.design/mdi/handshake.svg?color=%236e9ef7" width="16" align="center" />&nbsp; Open to **collaborations and open-source contributions** — if you're building something interesting, let's talk!
-
 ## <img src="https://api.iconify.design/mdi/email-fast-outline.svg?color=%236e9ef7" width="24" align="center" /> Let's Connect
 
 <p>
@@ -37,6 +36,21 @@ At heart, I'm someone who is always learning, always looking for growth, and alw
   <a href="mailto:shrchoug@ttu.edu"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/shrutidc"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
+
+## <img src="https://api.iconify.design/mdi/briefcase-outline.svg?color=%236e9ef7" width="24" align="center" /> Experience
+
+<img src="https://api.iconify.design/mdi/robot-outline.svg?color=%236e9ef7" width="18" align="center" />&nbsp; **Break Through Tech AI Studio Fellow** — *Cornell Tech · Mar 2026 – Present*
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Selected from 4,000+ applicants nationwide for a year-long AI/ML fellowship — earning Cornell certification in machine learning while building industry-sponsored AI Challenge Projects with senior engineering mentors.
+
+<img src="https://api.iconify.design/mdi/brain.svg?color=%236e9ef7" width="18" align="center" />&nbsp; **Undergraduate Research Assistant** — *Dept. of Electrical & Computer Engineering, TTU · Aug 2025 – Present*
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Modeling seizure dynamics from 128-channel iEEG with fractional-order brain networks. Analyzing 262 electrodes across 3 patients using DFA/MFDFA; reached 77% LOOCV accuracy classifying after-discharge suppression. Presented at the 2026 TTU Undergraduate Research Conference and co-led **CortexCompass**, a Top 10 commercialization finalist.
+
+<img src="https://api.iconify.design/mdi/account-group.svg?color=%236e9ef7" width="18" align="center" />&nbsp; **President, ACM @ Texas Tech** — *May 2026 – Present*
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Leading TTU's largest computing organization — driving recruiting partnerships with L3Harris, Nokia, Dell, Delta, and Pantex, and coordinating events across CS and ECE. Previously **Vice President, ACM-W** *(May 2025 – May 2026)*, where I formalized a peer-mentorship framework supporting the retention of women in computing.
+
+<img src="https://api.iconify.design/mdi/magnify.svg?color=%236e9ef7" width="18" align="center" />&nbsp; Seeking **summer 2027 internship roles** in **Data Science, AI/ML, Quant, or SWE**
+
+<img src="https://api.iconify.design/mdi/handshake.svg?color=%236e9ef7" width="18" align="center" />&nbsp; Open to **collaborations and open-source contributions** — if you're building something interesting, let's talk!
 
 ## <img src="https://api.iconify.design/mdi/tools.svg?color=%236e9ef7" width="24" align="center" /> Tech Stack
 
@@ -132,15 +146,6 @@ At heart, I'm someone who is always learning, always looking for growth, and alw
   <img src="https://img.shields.io/badge/Linux%20for%20DevOps-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux for DevOps" />
   <img src="https://img.shields.io/badge/UR2PhD%20Research%20Scholar-6E9EF7?style=flat-square" alt="UR2PhD Research Scholar" />
 </p>
-
-## <img src="https://api.iconify.design/mdi/chart-bar.svg?color=%236e9ef7" width="24" align="center" /> GitHub Stats
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shrutidc&theme=tokyonight" alt="Top Languages by Repo" height="200" />
-<img src="https://streak-stats.demolab.com?user=shrutidc&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="200" />
-
-</div>
 
 ## <img src="https://api.iconify.design/mdi/gamepad-variant-outline.svg?color=%236e9ef7" width="24" align="center" /> Contribution Graph
 
