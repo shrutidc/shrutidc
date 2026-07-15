@@ -188,11 +188,21 @@ Detects your emotional state from a facial image with DeepFace, then blends that
 
 </div>
 
----
+## <img src="https://api.iconify.design/mdi/gamepad-variant-outline.svg?color=%236e9ef7" width="24" align="center" /> Contribution Graph
 
 <div align="center">
 
-*"Code is like humor. When you have to explain it, it's bad."* — Cory House
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shrutidc/shrutidc/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shrutidc/shrutidc/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/shrutidc/shrutidc/output/pacman-contribution-graph.svg" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
 
 **Thanks for stopping by! Feel free to explore my repos and reach out.**
 
