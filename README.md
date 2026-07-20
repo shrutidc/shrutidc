@@ -52,6 +52,17 @@ At heart, I'm someone who is always learning, always looking for growth, and alw
 
 <img src="https://api.iconify.design/mdi/handshake.svg?color=%236e9ef7" width="18" align="center" />&nbsp; Open to **collaborations and open-source contributions** — if you're building something interesting, let's talk!
 
+## <img src="https://api.iconify.design/mdi/rocket-launch-outline.svg?color=%236e9ef7" width="24" align="center" /> Featured Projects
+
+| Project | What it does | Tech |
+|---|---|---|
+| <img src="https://api.iconify.design/mdi/robot-outline.svg?color=%236e9ef7" width="15" align="center" /> **[Data Science AI Agent](https://github.com/shrutidc/Data-Science-AI-Agent)** | AI agent that automates data profiling, cleaning, charting, and model triage from a plain-English request — LLM plans, deterministic pandas executes | `FastAPI` · `Next.js` · `Claude` |
+| <img src="https://api.iconify.design/mdi/chart-box-outline.svg?color=%236e9ef7" width="15" align="center" /> **[Global Budget Allocation](https://github.com/shrutidc/Global-Budget-Allocation)** | Reproducible analysis of 45 countries' budgets (1936–2026) — validation, clustering/PCA, ARIMA/ETS forecasting, tested package + CI | `Pandas` · `scikit-learn` · `Statsmodels` |
+| <img src="https://api.iconify.design/mdi/finance.svg?color=%236e9ef7" width="15" align="center" /> **[Financial Markets Analysis](https://github.com/shrutidc/Financial-Markets-Analysis-)** | End-to-end JPM equity research — valuation (DDM/RIM), event studies, walk-forward backtests, VaR/CVaR, GARCH volatility | `Pandas` · `Statsmodels` · `GARCH` |
+| <img src="https://api.iconify.design/mdi/brain.svg?color=%236e9ef7" width="15" align="center" /> **[VEP-Pipeline](https://github.com/shrutidc/VEP-Pipeline)** | Virtual Epileptic Patient pipeline simulating seizure propagation with the Epileptor neural-mass model — my epilepsy research contribution | `Python` · `Numba` · `The Virtual Brain` |
+| <img src="https://api.iconify.design/mdi/map-marker-radius-outline.svg?color=%236e9ef7" width="15" align="center" /> **[Smart Pad Layout Optimizer](https://github.com/shrutidc/PTEN_Main_OS)** 🏆 | Drone-imagery frac-pad layout tool with georeferencing, collision detection, and KML/PDF export — *Patterson-UTI Challenge Winner, HackWesTX 2025* | `Canvas API` · `Gemini API` · `jsPDF` |
+| <img src="https://api.iconify.design/mdi/music-note-outline.svg?color=%236e9ef7" width="15" align="center" /> **[Serenata](https://github.com/shrutidc/Serenata)** 🏆 | Mood-based music recommender — DeepFace emotion detection + Gemini + Spotify — *Best First-Time Hackers, HackWesTX 2024* | `DeepFace` · `Gemini API` · `Spotify API` |
+
 ## <img src="https://api.iconify.design/mdi/tools.svg?color=%236e9ef7" width="24" align="center" /> Tech Stack
 
 **Languages**
