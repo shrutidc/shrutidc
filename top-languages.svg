@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200" viewBox="0 0 360 200" role="img" aria-label="Top languages by repository">
+<style>text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif}</style>
+<rect x="0.5" y="0.5" width="359" height="199" rx="6" fill="#1a1b27" stroke="#2f3b54" />
+<text x="25" y="35" fill="#70a5fd" font-size="18" font-weight="600">Top Languages by Repo</text>
+<rect x="25" y="53" width="11" height="11" rx="2" fill="#3572A5" />
+<text x="45" y="62" fill="#a9fef7" font-size="13">Python <tspan opacity="0.65">33.0%</tspan></text>
+<rect x="25" y="77" width="11" height="11" rx="2" fill="#e34c26" />
+<text x="45" y="86" fill="#a9fef7" font-size="13">HTML <tspan opacity="0.65">28.4%</tspan></text>
+<rect x="25" y="101" width="11" height="11" rx="2" fill="#DA5B0B" />
+<text x="45" y="110" fill="#a9fef7" font-size="13">Jupyter Notebook <tspan opacity="0.65">17.4%</tspan></text>
+<rect x="25" y="125" width="11" height="11" rx="2" fill="#f1e05a" />
+<text x="45" y="134" fill="#a9fef7" font-size="13">JavaScript <tspan opacity="0.65">11.0%</tspan></text>
+<rect x="25" y="149" width="11" height="11" rx="2" fill="#563d7c" />
+<text x="45" y="158" fill="#a9fef7" font-size="13">CSS <tspan opacity="0.65">10.2%</tspan></text>
+<path d="M 280.00 58.00 A 52 52 0 0 1 325.58 135.03 L 306.30 124.44 A 30 30 0 0 0 280.00 80.00 Z" fill="#3572A5" />
+<path d="M 325.58 135.03 A 52 52 0 0 1 245.88 149.24 L 260.32 132.64 A 30 30 0 0 0 306.30 124.44 Z" fill="#e34c26" />
+<path d="M 245.88 149.24 A 52 52 0 0 1 229.45 97.79 L 250.84 102.96 A 30 30 0 0 0 260.32 132.64 Z" fill="#DA5B0B" />
+<path d="M 229.45 97.79 A 52 52 0 0 1 248.83 68.37 L 262.02 85.99 A 30 30 0 0 0 250.84 102.96 Z" fill="#f1e05a" />
+<path d="M 248.83 68.37 A 52 52 0 0 1 280.00 58.00 L 280.00 80.00 A 30 30 0 0 0 262.02 85.99 Z" fill="#563d7c" />
+</svg>
