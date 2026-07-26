@@ -1,24 +1,31 @@
 #!/usr/bin/env python3
-"""Regenerate the Featured Projects table in the profile README from PINNED repos.
+"""Regenerate the Featured Projects table in the profile README.
 
-Single source of truth: whatever is pinned on the GitHub profile shows here. Each
-project's description comes from the repo's own GitHub description (encode awards
-there, e.g. "🏆 ..."), and tech tags come from the repo's topics (falling back to
-primary language). Runs in CI and edits README.md between the PROJECTS markers.
+Single source of truth: the repos are read from GitHub, not stored in the README.
+Curation order:
+  1. PINNED repos (GraphQL) — whatever is pinned on the profile; or
+  2. repos tagged with the `showcase` topic (REST) — used only if no pins are
+     readable, so it also covers the case where GITHUB_TOKEN can't see pins.
 
-If the API returns no pinned repos (or errors), the README is left untouched so a
-transient failure can never wipe the section.
+Each project's description comes from the repo's own GitHub description (encode
+awards there, e.g. "🏆 ..."); tech tags come from the repo's topics, falling back
+to primary language. Runs in CI and edits README.md between the PROJECTS markers.
+
+If neither source returns anything (or the API errors), the README is left
+untouched so a transient failure can never wipe the section.
 """
 
 import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 
 USER = os.environ.get("GH_USER", "shrutidc")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 README = os.environ.get("README_PATH", "README.md")
+SHOWCASE_TOPIC = os.environ.get("SHOWCASE_TOPIC", "showcase")
 START = "<!-- PROJECTS:START -->"
 END = "<!-- PROJECTS:END -->"
 
@@ -43,7 +50,16 @@ query($login:String!){
 """
 
 
+def _get(url, headers):
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
 def fetch_pinned():
+    """Pinned repos via GraphQL, normalized to {name,url,description,topics,language}."""
+    if not TOKEN:
+        return []
     body = json.dumps({"query": QUERY, "variables": {"login": USER}}).encode()
     req = urllib.request.Request(
         "https://api.github.com/graphql",
@@ -58,7 +74,38 @@ def fetch_pinned():
         data = json.load(r)
     if "errors" in data:
         raise SystemExit(f"GraphQL errors: {data['errors']}")
-    return data["data"]["user"]["pinnedItems"]["nodes"]
+    out = []
+    for n in data["data"]["user"]["pinnedItems"]["nodes"]:
+        out.append({
+            "name": n["name"],
+            "url": n["url"],
+            "description": n.get("description"),
+            "topics": [t["topic"]["name"] for t in n["repositoryTopics"]["nodes"]],
+            "language": (n.get("primaryLanguage") or {}).get("name"),
+        })
+    return out
+
+
+def fetch_showcase():
+    """Fallback: repos tagged with the showcase topic, via the REST search API."""
+    headers = {"User-Agent": USER, "Accept": "application/vnd.github+json"}
+    if TOKEN:
+        headers["Authorization"] = f"bearer {TOKEN}"
+    q = urllib.parse.quote(f"user:{USER} topic:{SHOWCASE_TOPIC} fork:true")
+    data = _get(
+        f"https://api.github.com/search/repositories?q={q}&sort=updated&per_page=6",
+        headers,
+    )
+    out = []
+    for r in data.get("items", []):
+        out.append({
+            "name": r["name"],
+            "url": r["html_url"],
+            "description": r.get("description"),
+            "topics": [t for t in r.get("topics", []) if t != SHOWCASE_TOPIC],
+            "language": r.get("language"),
+        })
+    return out
 
 
 def prettify(name):
@@ -68,11 +115,9 @@ def prettify(name):
 
 
 def tech(node):
-    topics = [t["topic"]["name"] for t in node["repositoryTopics"]["nodes"]]
-    if topics:
-        return " · ".join(f"`{t}`" for t in topics[:4])
-    lang = (node.get("primaryLanguage") or {}).get("name")
-    return f"`{lang}`" if lang else ""
+    if node["topics"]:
+        return " · ".join(f"`{t}`" for t in node["topics"][:4])
+    return f"`{node['language']}`" if node["language"] else ""
 
 
 def render(nodes):
@@ -85,8 +130,13 @@ def render(nodes):
 
 def main():
     nodes = fetch_pinned()
+    source = "pinned"
     if not nodes:
-        print("no pinned repos returned — leaving README unchanged", file=sys.stderr)
+        nodes = fetch_showcase()
+        source = f"topic:{SHOWCASE_TOPIC}"
+    if not nodes:
+        print("no pinned or showcase repos found — leaving README unchanged",
+              file=sys.stderr)
         return 0
 
     block = f"{START}\n{render(nodes)}\n{END}"
@@ -104,7 +154,7 @@ def main():
 
     with open(README, "w") as f:
         f.write(new)
-    print(f"updated projects section from {len(nodes)} pinned repos")
+    print(f"updated projects section from {len(nodes)} repos (source: {source})")
     return 0
 
 
