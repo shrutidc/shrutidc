@@ -55,7 +55,14 @@ At heart, I'm someone who is always learning, always looking for growth, and alw
 ## <img src="https://api.iconify.design/mdi/rocket-launch-outline.svg?color=%236e9ef7" width="24" align="center" /> Featured Projects
 
 <!-- PROJECTS:START -->
-_Auto-generated every 12h from my pinned repositories — pin a repo to feature it, and its description/tech tags flow from the repo itself._
+| Project | Description | Tech |
+|---|---|---|
+| **[Supportflow](https://github.com/shrutidc/SupportFlow)** | Enterprise-style customer support console modeling ticket triage, escalation, and SLA workflows (HTML/CSS/JS). | `crm` · `css` · `dashboard` · `frontend` |
+| **[Data Science AI Agent](https://github.com/shrutidc/Data-Science-AI-Agent)** | This Al agent automates the repetitive parts of data science How it works: upload a CSV → the agent scans column types, nulls, dupes, and outliers → LLM-planned cleaning (pandas executes it) → auto-generated charts → ML problem type + model suggestions → one summary report. The LLM plans and narrates; the data work stays deterministic. | `Python` |
+| **[Exchange Latency Forensics](https://github.com/shrutidc/exchange-latency-forensics)** | Captures a live Coinbase market-data feed with nanosecond timestamps and measures end-to-end latency out to p99.9 — with guards against the confounds that make latency reports lie: subscribe-time artifacts, cross-session clock offsets, aggregation traps, and percentiles the sample can't support. | `Python` |
+| **[Financial Markets Analysis](https://github.com/shrutidc/Financial-Markets-Analysis-)** | Exploratory analysis of financial market data using Python, statistical analysis, and data visualization to uncover market trends and insights. | `Python` |
+| **[Global Budget Allocation](https://github.com/shrutidc/Global-Budget-Allocation)** | Analyze and visualize global government budget allocation patterns using Python, data analysis, and interactive visualizations. | `Jupyter Notebook` |
+| **[VEP Pipeline](https://github.com/shrutidc/VEP-Pipeline)** | Personalized brain network simulation pipeline that models seizure propagation using the Epileptor neural mass model to support virtual epilepsy surgery planning. | `HTML` |
 <!-- PROJECTS:END -->
 
 ## <img src="https://api.iconify.design/mdi/tools.svg?color=%236e9ef7" width="24" align="center" /> Tech Stack
