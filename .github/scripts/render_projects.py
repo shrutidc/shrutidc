@@ -49,6 +49,18 @@ TECH_OVERRIDES = {
     "pten_main_os":                 ["Canvas API", "Gemini API", "jsPDF", "JavaScript"],
     "smart-pad-layout-optimizer":   ["Canvas API", "Gemini API", "jsPDF", "JavaScript"],
     "vep-pipeline":                 ["Python", "Numba", "SciPy", "The Virtual Brain"],
+    # New brand/descriptive names (post-rename); old keys kept above so the table
+    # renders correctly before and after the repos are renamed.
+    "framewright":                  ["FastAPI", "Next.js", "pandas", "Claude API"],
+    "nanochron":                    ["Python", "WebSockets", "DuckDB", "pandas"],
+    "jpm-equity-research":          ["pandas", "statsmodels", "GARCH", "scikit-learn"],
+    "global-budget-analysis":       ["pandas", "scikit-learn", "statsmodels", "ARIMA"],
+}
+
+# Display titles for repos whose prettified name would lose intended casing
+# (prettify would turn "SupportFlow" into "Supportflow").
+DISPLAY_NAMES = {
+    "supportflow": "SupportFlow",
 }
 
 QUERY = """
@@ -145,7 +157,8 @@ def render(nodes):
     rows = ["| Project | Description | Tech |", "|---|---|---|"]
     for n in nodes:
         desc = (n.get("description") or "").replace("|", "\\|").strip()
-        rows.append(f"| **[{prettify(n['name'])}]({n['url']})** | {desc} | {tech(n)} |")
+        title = DISPLAY_NAMES.get(n["name"].lower(), prettify(n["name"]))
+        rows.append(f"| **[{title}]({n['url']})** | {desc} | {tech(n)} |")
     return "\n".join(rows)
 
 
