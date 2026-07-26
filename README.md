@@ -39,18 +39,14 @@ At heart, I'm someone who is always learning, always looking for growth, and alw
 
 ## <img src="https://api.iconify.design/mdi/briefcase-outline.svg?color=%236e9ef7" width="24" align="center" /> Experience
 
-<img src="https://api.iconify.design/mdi/robot-outline.svg?color=%236e9ef7" width="18" align="center" />&nbsp; **Break Through Tech AI Studio Fellow** — *Cornell Tech · Mar 2026 – Present*
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Selected from 4,000+ applicants nationwide for a year-long AI/ML fellowship — earning Cornell certification in machine learning while building industry-sponsored AI Challenge Projects with senior engineering mentors.
-
-<img src="https://api.iconify.design/mdi/brain.svg?color=%236e9ef7" width="18" align="center" />&nbsp; **Undergraduate Research Assistant** — *Dept. of Electrical & Computer Engineering, TTU · Aug 2025 – Present*
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Modeling seizure dynamics from 128-channel iEEG with fractional-order brain networks. Analyzing 262 electrodes across 3 patients using DFA/MFDFA; reached 77% LOOCV accuracy classifying after-discharge suppression. Presented at the 2026 TTU Undergraduate Research Conference and co-led **CortexCompass**, a Top 10 commercialization finalist.
-
-<img src="https://api.iconify.design/mdi/account-group.svg?color=%236e9ef7" width="18" align="center" />&nbsp; **President, ACM @ Texas Tech** — *May 2026 – Present*
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Leading TTU's largest computing organization — driving recruiting partnerships with L3Harris, Nokia, Dell, Delta, and Pantex, and coordinating events across CS and ECE. Previously **Vice President, ACM-W** *(May 2025 – May 2026)*, where I formalized a peer-mentorship framework supporting the retention of women in computing.
-
-<img src="https://api.iconify.design/mdi/magnify.svg?color=%236e9ef7" width="18" align="center" />&nbsp; Seeking **summer 2027 internship roles** in **Data Science, AI/ML, Quant, or SWE**
-
-<img src="https://api.iconify.design/mdi/handshake.svg?color=%236e9ef7" width="18" align="center" />&nbsp; Open to **collaborations and open-source contributions** — if you're building something interesting, let's talk!
+- **Break Through Tech AI Studio Fellow** — *Cornell Tech · Mar 2026 – Present*  
+  Selected from 4,000+ applicants nationwide for a year-long AI/ML fellowship — earning Cornell certification in machine learning while building industry-sponsored AI Challenge Projects with senior engineering mentors.
+- **Undergraduate Research Assistant** — *Dept. of Electrical & Computer Engineering, TTU · Aug 2025 – Present*  
+  Modeling seizure dynamics from 128-channel iEEG with fractional-order brain networks. Analyzing 262 electrodes across 3 patients using DFA/MFDFA; reached 77% LOOCV accuracy classifying after-discharge suppression. Presented at the 2026 TTU Undergraduate Research Conference and co-led **CortexCompass**, a Top 10 commercialization finalist.
+- **President, ACM @ Texas Tech** — *May 2026 – Present*  
+  Leading TTU's largest computing organization — driving recruiting partnerships with L3Harris, Nokia, Dell, Delta, and Pantex, and coordinating events across CS and ECE. Previously **Vice President, ACM-W** *(May 2025 – May 2026)*, where I formalized a peer-mentorship framework supporting the retention of women in computing.
+- 🔎 Seeking **summer 2027 internship roles** in **Data Science, AI/ML, Quant, or SWE**
+- 🤝 Open to **collaborations and open-source contributions** — if you're building something interesting, let's talk!
 
 ## <img src="https://api.iconify.design/mdi/rocket-launch-outline.svg?color=%236e9ef7" width="24" align="center" /> Featured Projects
 

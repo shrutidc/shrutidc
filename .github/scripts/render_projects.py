@@ -33,6 +33,24 @@ END = "<!-- PROJECTS:END -->"
 ACRONYMS = {"ai", "ml", "vep", "jpm", "api", "os", "ddm", "ui", "ux", "sql",
             "html", "css", "llm", "etl"}
 
+# Curated tech tags per repo, reflecting each project's README (major skills, not
+# everything). Keyed by repo name lowercased, with both current and post-rename
+# names listed so it survives the renames. Takes priority over GitHub topics —
+# which are often noisy — falling back to topics, then primary language, for any
+# repo not listed here.
+TECH_OVERRIDES = {
+    "data-science-ai-agent":        ["FastAPI", "Next.js", "pandas", "Claude API"],
+    "global-budget-allocation":     ["pandas", "scikit-learn", "statsmodels", "ARIMA"],
+    "financial-markets-analysis-":  ["pandas", "statsmodels", "GARCH", "scikit-learn"],
+    "financial-markets-analysis":   ["pandas", "statsmodels", "GARCH", "scikit-learn"],
+    "exchange-latency-forensics":   ["Python", "WebSockets", "DuckDB", "pandas"],
+    "supportflow":                  ["JavaScript", "Node.js", "Express", "MongoDB"],
+    "serenata":                     ["DeepFace", "Gemini API", "Spotify API", "TensorFlow"],
+    "pten_main_os":                 ["Canvas API", "Gemini API", "jsPDF", "JavaScript"],
+    "smart-pad-layout-optimizer":   ["Canvas API", "Gemini API", "jsPDF", "JavaScript"],
+    "vep-pipeline":                 ["Python", "Numba", "SciPy", "The Virtual Brain"],
+}
+
 QUERY = """
 query($login:String!){
   user(login:$login){
@@ -115,6 +133,9 @@ def prettify(name):
 
 
 def tech(node):
+    override = TECH_OVERRIDES.get(node["name"].lower())
+    if override:
+        return " · ".join(f"`{t}`" for t in override)
     if node["topics"]:
         return " · ".join(f"`{t}`" for t in node["topics"][:4])
     return f"`{node['language']}`" if node["language"] else ""
