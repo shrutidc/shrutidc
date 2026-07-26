@@ -45,8 +45,8 @@ At heart, I'm someone who is always learning, always looking for growth, and alw
   Modeling seizure dynamics from 128-channel iEEG with fractional-order brain networks. Analyzing 262 electrodes across 3 patients using DFA/MFDFA; reached 77% LOOCV accuracy classifying after-discharge suppression. Presented at the 2026 TTU Undergraduate Research Conference and co-led **CortexCompass**, a Top 10 commercialization finalist.
 - **President, ACM @ Texas Tech** — *May 2026 – Present*  
   Leading TTU's largest computing organization — driving recruiting partnerships with L3Harris, Nokia, Dell, Delta, and Pantex, and coordinating events across CS and ECE. Previously **Vice President, ACM-W** *(May 2025 – May 2026)*, where I formalized a peer-mentorship framework supporting the retention of women in computing.
-- 🔎 Seeking **summer 2027 internship roles** in **Data Science, AI/ML, Quant, or SWE**
-- 🤝 Open to **collaborations and open-source contributions** — if you're building something interesting, let's talk!
+- Seeking **summer 2027 internship roles** in **Data Science, AI/ML, Quant, or SWE**
+- Open to **collaborations and open-source contributions** — if you're building something interesting, let's talk!
 
 ## <img src="https://api.iconify.design/mdi/rocket-launch-outline.svg?color=%236e9ef7" width="24" align="center" /> Featured Projects
 
