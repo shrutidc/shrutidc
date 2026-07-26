@@ -30,6 +30,25 @@ jobs:
           OUT_PATH: dist/top-languages.svg
         run: python3 .github/scripts/top_languages.py
 
+      - name: Sync pinned projects into README
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          README_PATH: README.md
+        run: python3 .github/scripts/render_projects.py
+
+      - name: Commit README if it changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "README unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: sync pinned projects into README [skip ci]"
+            git push
+          fi
+
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
