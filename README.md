@@ -53,12 +53,12 @@ At heart, I'm someone who is always learning, always looking for growth, and alw
 <!-- PROJECTS:START -->
 | Project | Description | Tech |
 |---|---|---|
-| **[SupportFlow](https://github.com/shrutidc/supportflow)** | Enterprise-style customer support ticket console with a full status lifecycle, escalation, and SLA logic, on a vanilla-JS front end with a Node/Express/MongoDB backend. | `JavaScript` · `Node.js` · `Express` · `MongoDB` |
+| **[SupportFlow](https://github.com/shrutidc/supportflow)** | AI-native customer support platform. Multi-tenant Next.js + Express + FastAPI, with the AI triage measured against a TF-IDF baseline — and losing. | `JavaScript` · `Node.js` · `Express` · `MongoDB` |
 | **[Framewright](https://github.com/shrutidc/framewright)** | AI agent that automates the tedious first mile of data science: upload a CSV and it profiles, cleans, charts, and recommends models from a plain-English prompt. The LLM plans, pandas executes. | `FastAPI` · `Next.js` · `pandas` · `Claude API` |
 | **[Nanochron](https://github.com/shrutidc/nanochron)** | Measures Coinbase market-data feed latency to p99.9 with nanosecond timestamps, guarding against the artifacts that make latency reports lie: subscribe-time skew, clock offsets, and unsupported percentiles. | `Python` · `WebSockets` · `DuckDB` · `pandas` |
 | **[JPM Equity Research](https://github.com/shrutidc/jpm-equity-research)** | End-to-end JPMorgan equity research in code: DDM/RIM valuation, event studies, walk-forward backtests, VaR/CVaR, and GARCH volatility, with every figure reproduced from the data. | `pandas` · `statsmodels` · `GARCH` · `scikit-learn` |
 | **[Global Budget Analysis](https://github.com/shrutidc/global-budget-analysis)** | Reproducible analysis of 45 countries' government budgets from 1936 to 2026: data validation, clustering and PCA, ARIMA/ETS forecasting, backed by a tested Python package and CI. | `pandas` · `scikit-learn` · `statsmodels` · `ARIMA` |
-| **[VEP Pipeline](https://github.com/shrutidc/vep-pipeline)** | 🏆 URC 2026 Top 10 Commercialization Finalist. Virtual Epileptic Patient pipeline that simulates seizure propagation with the Epileptor neural-mass model to support virtual epilepsy surgery planning. | `Python` · `Numba` · `SciPy` · `The Virtual Brain` |
+| **[Customer Behavior Data Analysis](https://github.com/shrutidc/customer-behavior-data-analysis)** |  | `Jupyter Notebook` |
 <!-- PROJECTS:END -->
 
 ## <img src="https://api.iconify.design/mdi/tools.svg?color=%236e9ef7" width="24" align="center" /> Tech Stack
