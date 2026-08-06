@@ -58,7 +58,7 @@ At heart, I'm someone who is always learning, always looking for growth, and alw
 | **[Nanochron](https://github.com/shrutidc/nanochron)** | Measures Coinbase market-data feed latency to p99.9 with nanosecond timestamps, guarding against the artifacts that make latency reports lie: subscribe-time skew, clock offsets, and unsupported percentiles. | `Python` · `WebSockets` · `DuckDB` · `pandas` |
 | **[JPM Equity Research](https://github.com/shrutidc/jpm-equity-research)** | End-to-end JPMorgan equity research in code: DDM/RIM valuation, event studies, walk-forward backtests, VaR/CVaR, and GARCH volatility, with every figure reproduced from the data. | `pandas` · `statsmodels` · `GARCH` · `scikit-learn` |
 | **[Global Budget Analysis](https://github.com/shrutidc/global-budget-analysis)** | Reproducible analysis of 45 countries' government budgets from 1936 to 2026: data validation, clustering and PCA, ARIMA/ETS forecasting, backed by a tested Python package and CI. | `pandas` · `scikit-learn` · `statsmodels` · `ARIMA` |
-| **[Customer Behavior Data Analysis](https://github.com/shrutidc/customer-behavior-data-analysis)** |  | `Jupyter Notebook` |
+| **[Customer Behavior Data Analysis](https://github.com/shrutidc/customer-behavior-data-analysis)** | Analyzed customer shopping behavior using Python, Pandas, and Matplotlib by cleaning, exploring, and visualizing retail data. Identified trends in demographics, spending patterns, product preferences, and purchasing habits to generate actionable insights for customer segmentation and business decisions. | `Jupyter Notebook` |
 <!-- PROJECTS:END -->
 
 ## <img src="https://api.iconify.design/mdi/tools.svg?color=%236e9ef7" width="24" align="center" /> Tech Stack
